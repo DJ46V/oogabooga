@@ -1,0 +1,154 @@
+{
+  "C_Cpp.enhancedColorization": "enabled",
+  "editor.semanticTokenColorCustomizations": {
+    "[Tokyo Night]": {
+      "rules": {
+        "variable.global": "#ce8787",
+        "class": "#df776f",
+        "enumMember": "#d49490"
+      }
+    },
+    "[Tomorrow Night]": {
+      "rules": {
+        "variable.global": "#ce8787",
+        "enumMember": "#db892c"
+      }
+    },
+    "[Syntax Material Dark Level 1 (beta)]": {
+      "rules": {
+        "property": "#efbea5"
+      }
+    }
+  },
+  "workbench.colorCustomizations": {
+    "[Tokyo Night]": {
+      "editorLineNumber.foreground": "#575d7c",
+      "editorLineNumber.activeForeground": "#9199c2"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Tokyo Night]": {
+      "textMateRules": [
+        {
+          "scope": "comment.block",
+          "settings": {
+            "foreground": "#8694b9"
+          }
+        }
+      ],
+      "types": "#df776f",
+      "comments": "#7781af"
+    }
+  },
+  // "editor.semanticTokenColorCustomizations": {
+  //     "[Material Theme Ocean]": {
+  //         "rules": {
+  //             "templateType": "#008055",
+  //             "variable.global": "#8ca2f0",
+  //             "function": "#b4b661",
+  //             "namespace": "#ac7118",
+  //             "enumMember": "#5b8115",
+  //             "genericType": "#ff0000",
+  //             "decorator": "#ff0000"
+  //         }
+  //     }
+  // },
+  // "editor.tokenColorCustomizations": {
+  //     //Comment
+  //     "[Material Theme Ocean]": {
+  //         "numbers": "#9b460d",
+  //         "comments": "#747474",
+  //         "strings": "#a17b08",
+  //         "keywords": "#6d3494",
+  //         "types": "#008055",
+  //     }
+  // },
+  "files.associations": {
+    "algorithm": "cpp",
+    "array": "cpp",
+    "atomic": "cpp",
+    "bit": "cpp",
+    "cctype": "cpp",
+    "charconv": "cpp",
+    "chrono": "cpp",
+    "clocale": "cpp",
+    "cmath": "cpp",
+    "compare": "cpp",
+    "concepts": "cpp",
+    "cstdarg": "cpp",
+    "cstddef": "cpp",
+    "cstdint": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cstring": "cpp",
+    "ctime": "cpp",
+    "cwchar": "cpp",
+    "cwctype": "cpp",
+    "deque": "cpp",
+    "exception": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "map": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "vector": "cpp",
+    "format": "cpp",
+    "fstream": "cpp",
+    "functional": "cpp",
+    "initializer_list": "cpp",
+    "iomanip": "cpp",
+    "ios": "cpp",
+    "iosfwd": "cpp",
+    "istream": "cpp",
+    "iterator": "cpp",
+    "limits": "cpp",
+    "locale": "cpp",
+    "memory": "cpp",
+    "new": "cpp",
+    "numeric": "cpp",
+    "optional": "cpp",
+    "ostream": "cpp",
+    "queue": "cpp",
+    "random": "cpp",
+    "ratio": "cpp",
+    "sstream": "cpp",
+    "stdexcept": "cpp",
+    "streambuf": "cpp",
+    "system_error": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "typeinfo": "cpp",
+    "utility": "cpp",
+    "xfacet": "cpp",
+    "xhash": "cpp",
+    "xiosbase": "cpp",
+    "xlocale": "cpp",
+    "xlocbuf": "cpp",
+    "xlocinfo": "cpp",
+    "xlocmes": "cpp",
+    "xlocmon": "cpp",
+    "xlocnum": "cpp",
+    "xloctime": "cpp",
+    "xmemory": "cpp",
+    "xstddef": "cpp",
+    "xstring": "cpp",
+    "xtr1common": "cpp",
+    "xtree": "cpp",
+    "xutility": "cpp",
+    "*.tcc": "cpp",
+    "string_view": "cpp",
+    "cinttypes": "cpp",
+    "*.rh": "cpp",
+    "cerrno": "cpp",
+    "iostream": "cpp",
+    "complex": "cpp",
+    "mutex": "cpp",
+    "ranges": "cpp",
+    "set": "cpp",
+    "span": "cpp",
+    "stop_token": "cpp",
+    "thread": "cpp"
+  },
+  "cmake.configureOnOpen": false,
+  "cmake.sourceDirectory": "${workspaceFolder}/lib46f/include/lvgl"
+}
